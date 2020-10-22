@@ -4,13 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rohith</title>
-    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="/static/script/index.js"></script>
+    <link rel="stylesheet" href="/static/styles/home.css" />
   </head>
   <body>
-    <section class="_100vh-div hero">
+    <nav class="navbar">
+      <a href="#">
+        <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 1L23 19H1L12 1Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+          </svg>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="1" width="18" height="18" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+          </svg>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="10" cy="10" r="9" stroke="white" stroke-width="2"/>
+          </svg>
+        </a>
+      <div>
+        <a href="#section-2">About</a>
+        <a href="#section-3">Works</a>
+        <a href="#"> Resume</a>
+        <a href="#contacts">Contact</a>
+      </div>
+    </nav>
+    <section id="hero" class="_100vh-div centralized">
       <p class="hero-txt">I enjoy crafting digital experiences!</p>
     </section>
-    <section class="section-2 centralized">
+    <section id="section-2" class="centralized">
       <p class="section-title-2">WHAT I DO</p>
       <p class="section-title-1" style="max-width: 850px;">
         I build fun experiences that put a smile on the child inside you.
@@ -151,7 +172,7 @@
         </div>
       </div>
     </section>
-    <section class="section-3 centralized">
+    <section id="section-3" class="centralized">
       <p class="section-title-2">MY WORKS</p>
       <p class="section-title-1" style="max-width: 594px;">
         Some of the major projects that I’ve worked on.
@@ -167,19 +188,19 @@
         Let’s chat!
       </button>
     </section>
-    <footer class="centralized">
+    <footer id="contacts" class="centralized">
         <div id="footer-container">
             <div>
               <p class="footer-thin-txt">Let’s make something great together!</p>
-              <p class="footer-bold-txt">Say hi! at rohithrojo@gmail.com</p>
+              <p class="footer-bold-txt">Say hi! at <a href="mailto:rohithrojo@gmail.com">rohithrojo@gmail.com</a></p>
             </div>
             <div id="social-container">
-              <p class="social-link">Twitter</p>
-              <p class="social-link">Dribbble</p>
-              <p class="social-link">Behance</p>
-              <p class="social-link">Lottiefiles</p>
-              <p class="social-link">Unspash</p>
-              <p class="social-link">LinkedIn</p>
+              <a href="https://twitter.com/?lang=en" target="_blank" class="social-link">Twitter</a>
+              <a href="https://twitter.com/?lang=en" target="_blank" class="social-link">Dribbble</a>
+              <a href="https://twitter.com/?lang=en" target="_blank" class="social-link">Behance</a>
+              <a href="https://twitter.com/?lang=en" target="_blank" class="social-link">Lottiefiles</a>
+              <a href="https://twitter.com/?lang=en" target="_blank" class="social-link">Unsplash</a>
+              <a href="https://twitter.com/?lang=en" target="_blank" class="social-link">LinkedIn</a>
             </div>
           <p class="copyright-txt">&#169 rohith 2020</p>
         </div>
