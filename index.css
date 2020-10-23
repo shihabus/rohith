@@ -77,7 +77,9 @@ section {
 }
 
 #section-2 {
-  padding-top: 140px;
+  padding: 140px 0px 0px 0px;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 .section-title-1 {
@@ -102,7 +104,6 @@ section {
   row-gap: 60px;
   grid-template-columns: 1fr 1fr;
   margin-top: 126px;
-  max-width: 80%;
 }
 
 .icon-div {
