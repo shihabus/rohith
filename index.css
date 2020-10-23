@@ -1,37 +1,3 @@
-@font-face {
-  font-family: "Gilroy-Light";
-  src: url("/static/fonts/Gilroy-Light.otf") format("opentype");
-}
-@font-face {
-  font-family: "Gilroy-Bold";
-  src: url("/static/fonts/Gilroy-Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Gilroy-Regular";
-  src: url("/static/fonts/Gilroy-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Gilroy-Medium";
-  src: url("/static/fonts/Gilroy-Medium.ttf") format("truetype");
-}
-
-body {
-  background-color: #e5e5e5;
-}
-
-* {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 section {
   padding: 0px 208px;
 }
@@ -53,10 +19,15 @@ section {
   background-color: #0d0d0d;
   position: sticky;
   top: 0;
+  padding: 40px 0px;
+  z-index: 1;
+}
+
+.navbar-container {
   display: flex;
   justify-content: space-between;
-  padding: 40px 208px;
-  z-index: 1;
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 .navbar a {
