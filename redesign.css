@@ -16,6 +16,8 @@ section {
   top: 0;
   padding: 40px 0px;
   z-index: 1;
+  backdrop-filter: blur(6px);
+  opacity: 0.8;
 }
 
 .navbar-container {
@@ -142,4 +144,58 @@ section {
 #research {
   padding: 120px 0px;
   max-width: 850px;
+}
+
+#insights {
+  padding-bottom: 120px;
+  max-width: 850px;
+}
+
+.regular-txt {
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0d0d0d;
+}
+
+#synthesis {
+  max-width: 850px;
+}
+
+#persona {
+  padding: 120px 0px;
+  max-width: 850px;
+}
+
+.persona-bio {
+  display: flex;
+  align-items: flex-start;
+}
+
+.persona-name {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  color: #0d0d0d;
+  padding-bottom: 12px;
+}
+
+#brainstorming {
+  max-width: 1024px;
+}
+
+.padded-container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+#decisions {
+  max-width: 850px;
+}
+
+#flow-diagram {
+  max-width: 1024px;
+}
+
+#wireframing {
+  max-width: 1024px;
 }

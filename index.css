@@ -21,6 +21,8 @@ section {
   top: 0;
   padding: 40px 0px;
   z-index: 1;
+  backdrop-filter: blur(6px);
+  opacity: 0.8;
 }
 
 .navbar-container {
