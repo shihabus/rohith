@@ -1,0 +1,218 @@
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("/static/fonts/Gilroy-Light.otf") format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("/static/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("/static/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("/static/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("/static/fonts/Gilroy-SemiBold.ttf") format("truetype");
+  font-display: swap;
+}
+
+.header1 {
+  font-family: Gilroy-Bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #0d0d0d;
+}
+
+.header2 {
+  font-family: Gilroy-Regular;
+  font-size: 26px;
+  line-height: 34px;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+.header3 {
+  font-family: Gilroy-Bold;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+.header4 {
+  font-family: Gilroy-Medium;
+  font-size: 26px;
+  line-height: 34px;
+  color: #0d0d0d;
+}
+
+.subtitle1 {
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #0d0d0d;
+}
+
+.subtitle2 {
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+.subtitle3 {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+.body1 {
+  font-family: Gilroy-Regular;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.body2 {
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ff5b91;
+}
+.body3 {
+  font-family: Gilroy-Regular;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+.caption1 {
+  font-family: Gilroy-Light;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #0d0d0d;
+}
+.caption2 {
+  font-family: Gilroy-Regular;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0d0d0d;
+}
+
+.overline {
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.3em;
+  color: #0d0d0d;
+}
+
+@media only screen and (min-width: 1024px) {
+  .header1 {
+    font-size: 64px;
+  }
+  .header2 {
+    font-size: 34px;
+  }
+  .header3,
+  .header4 {
+    font-size: 28px;
+  }
+
+  .subtitle1 {
+    font-size: 24px;
+  }
+  .subtitle2 {
+    font-size: 18px;
+  }
+  .subtitle3 {
+    font-size: 16px;
+  }
+
+  .caption1 {
+    font-size: 24px;
+  }
+  .caption2 {
+    font-size: 12px;
+  }
+
+  .body1 {
+    font-size: 20px;
+  }
+  .body2 {
+    font-size: 18px;
+  }
+  .body3 {
+    font-size: 16px;
+  }
+
+  .overline {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header1 {
+    font-size: 64px;
+  }
+  .header2 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .header3,
+  .header4 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .subtitle1 {
+    font-size: 24px;
+  }
+  .subtitle2 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .subtitle3 {
+    font-size: 16px;
+  }
+
+  .body1 {
+    font-size: 24px;
+  }
+  .body2 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .body3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .caption1 {
+    font-size: 24px;
+    line-height: 47px;
+  }
+  .caption2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .overline {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
