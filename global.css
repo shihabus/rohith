@@ -38,6 +38,10 @@ section {
 }
 
 @media only screen and (min-width: 1024px) {
+  section {
+    margin-bottom: 100px;
+  }
+
   .padded-content {
     max-width: 728px;
   }
