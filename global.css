@@ -1,0 +1,54 @@
+body {
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.centralized {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lefted {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+.padded-content {
+  max-width: 327px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  section {
+    margin-bottom: 100px;
+  }
+
+  .padded-content {
+    max-width: 728px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .padded-content {
+    max-width: 1024px;
+  }
+}
