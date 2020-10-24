@@ -104,11 +104,12 @@ if (!isMobile) {
   `;
 }
 
+$("#menu-list").hide();
 // menu icon
 $(document).ready(function () {
   $("#menu-icon").on("click", function () {
-    console.log("clg.....");
-    $(".menu-list").toggleClass("expand");
+    $("#menu-list").toggle();
+    $("nav").toggleClass("expand");
     return false;
   });
 });

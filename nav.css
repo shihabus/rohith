@@ -27,6 +27,26 @@ nav {
   fill: #fff;
 }
 
+#menu-list {
+  flex: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: lime;
+  color: inherit;
+}
+
+.expand {
+  padding-top: 28px;
+  height: 100vh;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.show {
+  background-color: lime;
+  display: flex;
+}
+
 @media only screen and (min-width: 1024px) {
   nav {
     padding-left: 14%;
