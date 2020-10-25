@@ -7,6 +7,7 @@
 
 #hero p {
   padding-top: 38px;
+  width: 60%;
 }
 
 /* what-i-do */
@@ -64,8 +65,8 @@
 
 .round-edge-card {
   position: absolute;
-  width: 327px;
-  height: 228px;
+  width: 87%;
+  /* height: 228px; */
   background: #ffffff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -77,9 +78,10 @@
   margin-right: auto;
 }
 
-.round-edge-card .header3 {
+.round-edge-card .header4 {
   padding-top: 12px;
   padding-bottom: 16px;
+  max-width: 80%;
 }
 
 /* say-hi */
@@ -170,7 +172,7 @@
     padding: 50px 44px;
   }
 
-  .round-edge-card .header3 {
+  .round-edge-card .header4 {
     line-height: 38px;
   }
   .round-edge-card .caption2 {
@@ -252,7 +254,7 @@
     padding: 70px 60px;
   }
 
-  .round-edge-card .header3 {
+  .round-edge-card .header4 {
     line-height: 52px;
 
     padding-top: 20px;
