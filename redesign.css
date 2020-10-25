@@ -7,11 +7,15 @@
   height: 32px;
   border: 1px solid #c4c4c4;
   border-radius: 22px;
-
-  font-family: Gilroy-Regular;
-  font-size: 12px;
-  text-align: center;
   color: #7d7d7d;
+}
+
+.pink {
+  color: #ff5b91;
+}
+
+.left-txt {
+  text-align: left !important;
 }
 
 #responsibility-container {
@@ -29,6 +33,18 @@
   background: #fff9fb;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.pinked-num {
+  width: 24px;
+  height: 24px;
+  background: #ff89b4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
 }
 
 #problem-container {

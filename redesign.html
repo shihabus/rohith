@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="/nav.css" />
+    <link rel="stylesheet" href="fontStyles.css" />
+    <link rel="stylesheet" href="/footer.css" />
     <link rel="stylesheet" href="/global.css" />
     <link rel="stylesheet" href="redesign.css" />
   </head>
@@ -12,7 +15,6 @@
     <nav>
       <a href="#">
         <svg
-          fill="#0D0D0D"
           width="42"
           height="14"
           viewBox="0 0 42 14"
@@ -27,25 +29,60 @@
           />
         </svg>
       </a>
+      <a id="menu-btn">
+        <svg
+          id="menu-icon"
+          width="24"
+          height="10"
+          viewBox="0 0 24 10"
+          fill="white"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0 1C0 0.447715 0.447715 0 1 0H23C23.5523 0 24 0.447715 24 1C24 1.55228 23.5523 2 23 2H1C0.447715 2 0 1.55228 0 1Z"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0 9C0 8.44772 0.447715 8 1 8H23C23.5523 8 24 8.44772 24 9C24 9.55228 23.5523 10 23 10H1C0.447715 10 0 9.55228 0 9Z"
+          />
+        </svg>
+      </a>
+      <div id="nav-links">
+        <a class="body1 link" href="#section-2">About</a>
+        <a class="body1 link" href="/redesign.html">Works</a>
+        <a class="body1 link" href="#"> Resume</a>
+        <a class="body1 link" href="#contacts">Contact</a>
+      </div>
+      <div id="menu-list">
+        <a class="body1 link" href="#section-2">About</a>
+        <a class="body1 link" href="/redesign.html">Works</a>
+        <a class="body1 link" href="#"> Resume</a>
+        <a class="body1 link" href="#contacts">Contact</a>
+      </div>
     </nav>
 
     <!-- section-1 -->
     <section style="padding-top: 60px;" class="centralized">
-      <p class="padded-content">The new Betterhalf</p>
-      <p class="padded-content">Redesigning the profile viewing experience</p>
+      <p class="padded-content header3">The new Betterhalf</p>
+      <p class="padded-content header2">
+        Redesigning the profile viewing experience
+      </p>
       <div id="pill-container">
-        <button class="rounded-btn">UI / UX Design</button>
-        <button class="rounded-btn">Read time: 12 min</button>
+        <button class="rounded-btn caption2">UI / UX Design</button>
+        <button class="rounded-btn caption2">Read time: 12 min</button>
       </div>
       <img src="/static/img/c1-m.png" alt="" />
     </section>
 
     <!-- synopsis -->
     <section class="padded-content">
-      <p>SYNOPSIS</p>
-      <p>About the project</p>
-      <p>Overview</p>
-      <p>
+      <p class="overline pink left-txt">SYNOPSIS</p>
+      <p class="header3 left-txt">About the project</p>
+      <p class="subtitle1 left-txt">Overview</p>
+      <p class="body2 left-txt">
         This design project was one of the major parts of the whole redesign
         process that we’ve done in Betterhalf.ai. Betterhalf is a matchmaking
         platform built for urban Indians. To elevate the experience of the app,
@@ -55,20 +92,20 @@
       </p>
       <div id="responsibility-container">
         <div class="responsibility-div">
-          <p>Timeline</p>
-          <p>4 weeks</p>
+          <p class="subtitle1 left-txt">Timeline</p>
+          <p class="body2 left-txt">4 weeks</p>
         </div>
         <div class="responsibility-div">
-          <p>My Role</p>
-          <p>
+          <p class="subtitle1 left-txt">My Role</p>
+          <p class="body2 left-txt">
             Team lead <br />
             Researcher <br />UI & Prototyping <br />
             Testing
           </p>
         </div>
         <div class="responsibility-div">
-          <p>Teammates</p>
-          <p>
+          <p class="subtitle1 left-txt">Teammates</p>
+          <p class="body2 left-txt">
             Prithvi Murahari <br />
             Ayush Bhamu <br />
             Shreeya Kadam
@@ -80,8 +117,8 @@
     <!-- pink -->
     <section id="pink-section">
       <div class="padded-content">
-        <p>The Problem</p>
-        <p>
+        <p class="subtitle1 left-txt">The Problem</p>
+        <p class="body2 left-txt">
           We’ve found that our user engagement rate was low even if we had a
           high customer acquisition. And through the help of the research and
           usability studies, we've seen a slight behavior change in our users
@@ -89,24 +126,26 @@
         </p>
         <div id="problem-container">
           <div>
-            <p>1</p>
-            <p>The low acceptance rate of females.</p>
+            <p class="pinked-num body3">1</p>
+            <p class="body3 left-txt">The low acceptance rate of females.</p>
           </div>
           <div>
-            <p>2</p>
-            <p>Less number of connections are made.</p>
+            <p class="pinked-num body3">2</p>
+            <p class="body3 left-txt">Less number of connections are made.</p>
           </div>
           <div>
-            <p>3</p>
-            <p>The increasing amount of pending requests.</p>
+            <p class="pinked-num body3">3</p>
+            <p class="body3 left-txt">
+              The increasing amount of pending requests.
+            </p>
           </div>
           <div>
-            <p>4</p>
-            <p>More time on decision making.</p>
+            <p class="pinked-num body3">4</p>
+            <p class="body3 left-txt">More time on decision making.</p>
           </div>
         </div>
-        <p>The Solution</p>
-        <p>
+        <p class="subtitle1 left-txt">The Solution</p>
+        <p class="body2 left-txt">
           The solution is to improve the experience by introducing additional
           features, to tweak the engagement of the users, and to reframe the
           user flow to change the behavior of the users towards the app.
@@ -116,25 +155,25 @@
 
     <!-- research -->
     <section class="padded-content">
-      <p>RESEARCH</p>
-      <p>Identifying the problems</p>
-      <p>Interviews</p>
-      <p>
+      <p class="overline pink left-txt">RESEARCH</p>
+      <p class="header3 left-txt">Identifying the problems</p>
+      <p class="subtitle1 left-txt">Interviews</p>
+      <p class="body2 left-txt">
         We conducted telephone interviews with 12 of our users from different
         backgrounds. Most of them said that they were confused while taking a
         decision and they were not sure about connecting with all the potential
         matches. This actually reduced the chances for them to find their ideal
         life partner.
       </p>
-      <p>Usability studies</p>
-      <p>
+      <p class="subtitle1 left-txt">Usability studies</p>
+      <p class="body2 left-txt">
         We conducted a semi-structured usability test to understand the behavior
         patterns of our users. The study was more focused on the decision-making
         patterns of the users and the information that they look for in every
         profile and their response towards some of our major features.
       </p>
-      <p>Online survey</p>
-      <p>
+      <p class="subtitle1 left-txt">Online survey</p>
+      <p class="body2 left-txt">
         The main motive of this survey was to find out the issues that the users
         are facing in general, to know their point of view on some of the
         features and their expectations from the product. This study helped us
@@ -145,9 +184,9 @@
 
     <!-- insights -->
     <section class="padded-content">
-      <p>RESEARCH INSIGHTS</p>
-      <p>Framing the problems</p>
-      <p>
+      <p class="overline pink left-txt">RESEARCH INSIGHTS</p>
+      <p class="header3 left-txt">Framing the problems</p>
+      <p class="body2 left-txt">
         We brought together our individual research data and created a higher
         level theme in which the major challenges faced by our users.
       </p>
@@ -181,8 +220,8 @@
               stroke-linejoin="round"
             />
           </svg>
-          <p>Functional & Technical issues</p>
-          <p>
+          <p class="subtitle2 left-txt">Functional & Technical issues</p>
+          <p class="body2 left-txt">
             Ignoring matches, declining a request, not possible to withdraw a
             request, UI limitations,
           </p>
@@ -208,8 +247,8 @@
               stroke-linejoin="round"
             />
           </svg>
-          <p>General issues & Feature problems</p>
-          <p>
+          <p class="subtitle2 left-txt">General issues & Feature problems</p>
+          <p class="body2 left-txt">
             Unnecessary features, non-serious profiles, social proof,
             verification, limited profile details, poor photos, non-active
             users, storytelling, compatibility, common interest, marital status
@@ -244,8 +283,8 @@
               stroke-linejoin="round"
             />
           </svg>
-          <p>Psychological & Emotional problems</p>
-          <p>
+          <p class="subtitle2 left-txt">Psychological & Emotional problems</p>
+          <p class="body2 left-txt">
             Profile comparison, decision making, expectations, personal bias,
             Time consumption
           </p>
@@ -255,9 +294,9 @@
 
     <!-- synthesis -->
     <section class="padded-content">
-      <p>PROBLEM SYNTHESIS</p>
-      <p>Affinity diagraming</p>
-      <p>
+      <p class="overline pink left-txt">PROBLEM SYNTHESIS</p>
+      <p class="header3 left-txt">Affinity diagraming</p>
+      <p class="body2 left-txt">
         We used affinity mapping to get an in-depth analysis of the research
         data that we have collected. This method helped us in categorizing and
         prioritizing the data of the challenges the users faced.
@@ -265,13 +304,13 @@
       <div>
         <div>
           <img class="board-images" src="/static/img/list1.png" alt="list 1" />
-          <p style="text-align: center;">
+          <p class="body3">
             Listing affinity notes according to the issues
           </p>
         </div>
         <div>
           <img class="board-images" src="/static/img/list2.png" alt="list 2" />
-          <p style="text-align: center;">
+          <p class="body3">
             Categorizing affinity notes into different themes
           </p>
         </div>
@@ -280,9 +319,9 @@
 
     <!-- persona -->
     <section class="padded-content">
-      <p>USER PERSONA</p>
-      <p>Understanding the user</p>
-      <p>
+      <p class="overline pink left-txt">USER PERSONA</p>
+      <p class="header3 left-txt">Understanding the user</p>
+      <p class="body2 left-txt">
         Personas really helped us to represent the user group who faced similar
         problems.
       </p>
@@ -292,9 +331,9 @@
           <img src="/static/img/george.png" alt="" srcset="" />
         </picture>
         <div>
-          <p>George Jacob, 32</p>
-          <p>Bangalore</p>
-          <p>
+          <p class="subtitle2">George Jacob, 32</p>
+          <p class="body2">Bangalore</p>
+          <p class="body3 left-txt">
             George is an engineering manager who works for an enterprise
             company. He is looking for a life partner, and he wants to settle
             down within a year or so. He has used many dating and matrimonial
@@ -317,9 +356,9 @@
           <img src="/static/img/ankita.png" alt="" srcset="" />
         </picture>
         <div>
-          <p>Ankitha Jain, 26</p>
-          <p>Delhi</p>
-          <p>
+          <p class="subtitle2">Ankitha Jain, 26</p>
+          <p class="body2">Delhi</p>
+          <p class="body3 left-txt">
             Ankitha is a working professional, financially independent. She is
             single and looking for a life partner that she can settle down with
             and eventually get married. Ankitha has been in relationships
@@ -340,9 +379,9 @@
 
     <!-- brainstorming -->
     <section class="padded-content">
-      <p>BRAINSTROMING</p>
-      <p>Exploring ideas and opportunities</p>
-      <p>
+      <p class="overline pink left-txt">BRAINSTROMING</p>
+      <p class="header3 left-txt">Exploring ideas and opportunities</p>
+      <p class="body2 left-txt">
         The main motive of this session was to dig deeper into the problem space
         and explore the opportunities. From the affinity diagram, we shortlisted
         and prioritized some of the issues and features, and while mapping them
@@ -358,52 +397,54 @@
 
     <!-- decisions -->
     <section class="padded-content">
-      <p>DESIGN DECISIONS</p>
-      <p>Rationale behind the solution</p>
-      <p>
+      <p class="overline pink left-txt">DESIGN DECISIONS</p>
+      <p class="header3 left-txt">Rationale behind the solution</p>
+      <p class="body2 left-txt">
         The brainstorming session helped us to decide on suitable solutions for
         our problems. We even decided on the features and functionalities that
         are going to be used.
       </p>
       <div id="table-div">
         <!-- Constraints -->
-        <p>Constraints</p>
-        <p>The seriousness of users</p>
-        <p>Limited profile details</p>
-        <p>Decision making</p>
-        <p>User engagement</p>
-        <p>Security</p>
-        <p>User control</p>
-        <p>Unnecessary features</p>
-        <p>Storytelling</p>
+        <p class="subtitle1 left-txt">Constraints</p>
+        <p class="body2 left-txt">The seriousness of users</p>
+        <p class="body2 left-txt">Limited profile details</p>
+        <p class="body2 left-txt">Decision making</p>
+        <p class="body2 left-txt">User engagement</p>
+        <p class="body2 left-txt">Security</p>
+        <p class="body2 left-txt">User control</p>
+        <p class="body2 left-txt">Unnecessary features</p>
+        <p class="body2 left-txt">Storytelling</p>
 
         <!-- Solution -->
-        <p>Solution</p>
-        <p>
+        <p class="subtitle1 left-txt">Solution</p>
+        <p class="body2 left-txt">
           Introducing Settle-down feature, Personal note feature, Activity
           status in profile.
         </p>
-        <p>
-          Adding more informations like community, hometown, marital status, etc
+        <p class="body2 left-txt">
+          Adding more information like community, hometown, marital status, etc
         </p>
-        <p>
+        <p class="body2 left-txt">
           Modifying the Information Architecture: One profile at a time,
           Connections and request expiry
         </p>
-        <p>
+        <p class="body2 left-txt">
           Expanding the compatibility into a whole new personality section where
           we can know about the user interests, beliefs, personalities, and
           values come together.
         </p>
-        <p>Social verification, photo verification, Govt. ID verification.</p>
-        <p>
+        <p class="body2 left-txt">
+          Social verification, photo verification, Govt. ID verification.
+        </p>
+        <p class="body2 left-txt">
           Introducing the Reject button in every profile under the recommended
           and received section.
         </p>
-        <p>
+        <p class="body2 left-txt">
           Removing Hide feature, Request sent, profile views, notification tab.
         </p>
-        <p>
+        <p class="body2 left-txt">
           Combining images and information to form a storytelling experience.
         </p>
       </div>
@@ -412,9 +453,9 @@
     <!-- flow-dia -->
     <section class="centralized">
       <div class="padded-content">
-        <p>FLOW DIAGRAM</p>
-        <p>Mapping & organizing information</p>
-        <p>
+        <p class="overline pink left-txt">FLOW DIAGRAM</p>
+        <p class="header3 left-txt">Mapping & organizing information</p>
+        <p class="body2 left-txt">
           After deciding the solutions, we started sketching out the typical
           user journey. From there, we understood the flaws in the current task
           flow, and we’ve redesigned it.
@@ -428,9 +469,9 @@
     <!-- wire framing -->
     <section class="centralized">
       <div class="padded-content">
-        <p>WIREFRAMING</p>
-        <p>Low-fidelity explorations</p>
-        <p>
+        <p class="overline pink left-txt">WIREFRAMING</p>
+        <p class="header3 left-txt">Low-fidelity explorations</p>
+        <p class="body2 left-txt">
           Based on the features and task flow, we created the initial sketches &
           wireframes to get final feedback from our stakeholders and users.
         </p>
@@ -443,9 +484,9 @@
     <!-- designs -->
     <section class="centralized">
       <div class="padded-content">
-        <p>VISUAL DESIGNS</p>
-        <p>The final solution</p>
-        <p>
+        <p class="overline pink left-txt">VISUAL DESIGNS</p>
+        <p class="header3 left-txt">The final solution</p>
+        <p class="body2 left-txt">
           Along with the redesign process, we also changed the visual identity
           of our whole product with the new style guides and principles.
         </p>
@@ -453,7 +494,7 @@
       <picture>
         <img src="/static/img/vd.png" alt="" srcset="" />
       </picture>
-      <p class="padded-content">
+      <p class="padded-content body2 left-txt">
         In the new home-screen, users can focus on a single profile and make a
         decision then and there. It also gives a storytelling experience for the
         user. With the introduction of the decline button, users can now pass a
@@ -462,7 +503,7 @@
       <picture>
         <img src="/static/img/vd.png" alt="" srcset="" />
       </picture>
-      <p class="padded-content">
+      <p class="padded-content body2 left-txt">
         Combining the top nav bar and the primary navigation leads the users to
         focus on their recommended requests, received requests, and their
         connections. And the introduction of "Personal note" doubles the chances
@@ -472,7 +513,7 @@
       <picture>
         <img src="/static/img/vd.png" alt="" srcset="" />
       </picture>
-      <p class="padded-content">
+      <p class="padded-content body2 left-txt">
         A simplified received request section with a decline button in every
         profile to reject a request. Also, the user can now differentiate the
         seriousness of a profile with the help of the personal note feature.
@@ -480,7 +521,7 @@
       <picture>
         <img src="/static/img/vd.png" alt="" srcset="" />
       </picture>
-      <p class="padded-content">
+      <p class="padded-content body2 left-txt">
         The settle-down feature plays an important role in the matchmaking
         industry. It not only defines the seriousness of the user but also helps
         a user to make it a top priority in their preference.
@@ -488,7 +529,7 @@
       <picture>
         <img src="/static/img/vd.png" alt="" srcset="" />
       </picture>
-      <p class="padded-content">
+      <p class="padded-content body2 left-txt">
         This was one of the most requested features at the time of our research,
         and it makes total sense to a typical Indian user whose family members
         will also be part of choosing the life partner.
@@ -497,9 +538,9 @@
 
     <!-- conclusion -->
     <section class="padded-content">
-      <p>CONCLUSION</p>
-      <p>Reflection and next steps</p>
-      <p>
+      <p class="overline pink left-txt">CONCLUSION</p>
+      <p class="header3 left-txt">Reflection and next steps</p>
+      <p class="body2 left-txt">
         Due to the time constraints, we only worked on the major features that
         we have prioritized. And we planned some of the remaining features for
         phase 2 - it includes, Photo verification, Personality & Compatibility
@@ -509,49 +550,49 @@
 
     <!-- numbers -->
     <section class="padded-content">
-      <p>NUMBERS</p>
-      <p>The success metrics</p>
-      <p>
+      <p class="overline pink left-txt">NUMBERS</p>
+      <p class="header3 left-txt">The success metrics</p>
+      <p class="body2 left-txt">
         After launching the redesigned app we’ve seen a huge leap on the key
         metrics that we tried to improve. Following are some of them.
       </p>
       <div id="number-container">
         <div>
-          <p>243%</p>
-          <p>Total connections made</p>
+          <p class="header1 left-txt">243%</p>
+          <p class="caption2 left-txt">Total connections made</p>
         </div>
         <div>
-          <p>410%</p>
-          <p>Total Request sent</p>
+          <p class="header1 left-txt">410%</p>
+          <p class="caption2 left-txt">Total Request sent</p>
         </div>
         <div>
-          <p>-152%</p>
-          <p>Pending matches</p>
+          <p class="header1 left-txt">-152%</p>
+          <p class="caption2 left-txt">Pending matches</p>
         </div>
         <div>
-          <p>31%</p>
-          <p>Pending requests</p>
+          <p class="header1 left-txt">31%</p>
+          <p class="caption2 left-txt">Pending requests</p>
         </div>
         <div>
-          <p>290%</p>
-          <p>Accept rate of female users</p>
+          <p class="header1 left-txt">290%</p>
+          <p class="caption2 left-txt">Accept rate of female users</p>
         </div>
       </div>
     </section>
 
     <!-- learnings -->
     <section class="padded-content">
-      <p>LEARNINGS</p>
-      <p>Takeaways from the project</p>
-      <p>
+      <p class="overline pink left-txt">LEARNINGS</p>
+      <p class="header3 left-txt">Takeaways from the project</p>
+      <p class="body2 left-txt">
         While working on this project I had a great experience to practice my
         teamwork, collaboration, and accountability skills. I learned that
         dividing the workload and owning a part of the project is key to
         productivity. Also, I was once again reassured that user testing and
         iteration will always deliver positive results.
       </p>
-      <p>Additional discussion</p>
-      <p>
+      <p class="subtitle1 left-txt">Additional discussion</p>
+      <p class="body2 left-txt">
         Points which are not covered in this case study but could be share worth
         sharing in person
         <br />
@@ -559,7 +600,7 @@
         Design alternatives
         <br />
         <br />
-        User testion & evaluation
+        User testing & evaluation
         <br />
         <br />
         Challenges
@@ -567,47 +608,54 @@
     </section>
 
     <!-- footer -->
-    <footer class="centralized">
-      <div>
-        <p class="padded-content">Let’s make something great together!</p>
-        <p class="padded-content">
-          Say hi! at
-          <a href="mailto:rohithrojo@gmail.com">rohithrojo@gmail.com</a>
-        </p>
+    <footer>
+      <div id="footer-container">
+        <div>
+          <p id="footer-thin-txt" class="header2">
+            Let’s make something <br />
+            great together!
+          </p>
+          <p id="footer-bold-txt" class="header3">
+            Say hi! at <br />
+            <a href="mailto:rohithrojo@gmail.com">rohithrojo@gmail.com</a>
+          </p>
+        </div>
+        <div id="social-container">
+          <a
+            href="https://twitter.com/?lang=en"
+            class="body1 social-link"
+            target="_blank"
+            >Twitter</a
+          >
+          <a
+            href="https://twitter.com/?lang=en"
+            class="body1 social-link right"
+            target="_blank"
+            >Dribbble</a
+          >
+          <a
+            href="https://twitter.com/?lang=en"
+            class="body1 social-link"
+            target="_blank"
+            >Behance</a
+          >
+          <a
+            href="https://twitter.com/?lang=en"
+            class="body1 social-link right"
+            target="_blank"
+            >Lottiefiles</a
+          >
+          <a
+            href="https://twitter.com/?lang=en"
+            class="body1 social-link"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
       </div>
-      <div id="social-container" class="padded-content">
-        <a
-          href="https://twitter.com/?lang=en"
-          target="_blank"
-          class="social-link"
-          >Twitter</a
-        >
-        <a
-          href="https://twitter.com/?lang=en"
-          target="_blank"
-          class="social-link"
-          >Dribbble</a
-        >
-        <a
-          href="https://twitter.com/?lang=en"
-          target="_blank"
-          class="social-link"
-          >Behance</a
-        >
-        <a
-          href="https://twitter.com/?lang=en"
-          target="_blank"
-          class="social-link"
-          >Lottiefiles</a
-        >
-        <a
-          href="https://twitter.com/?lang=en"
-          target="_blank"
-          class="social-link"
-          >LinkedIn</a
-        >
-      </div>
-      <p>&copy; rohith 2020</p>
+      <p id="copy-right" class="body2">&copy; rohith 2020</p>
     </footer>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <script src="/header.js"></script>
 </html>
