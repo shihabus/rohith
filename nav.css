@@ -56,8 +56,8 @@ nav.dark {
 }
 
 #menu-list > a {
-  text-align: right;
-  padding-top: 10px;
+  text-align: left;
+  padding-top: 60px;
 }
 
 .expand {
