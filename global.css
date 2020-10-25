@@ -28,7 +28,27 @@ a {
   align-items: flex-start;
 }
 
-section {
+.pink {
+  color: #ff5b91;
+}
+
+.left-txt {
+  text-align: left !important;
+}
+
+.pinked-num {
+  width: 24px;
+  height: 24px;
+  background: #ff89b4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+}
+
+.section {
   margin-bottom: 80px;
 }
 
@@ -38,7 +58,7 @@ section {
 }
 
 @media only screen and (min-width: 1024px) {
-  section {
+  .section {
     margin-bottom: 100px;
   }
 
@@ -50,5 +70,8 @@ section {
 @media only screen and (min-width: 1440px) {
   .padded-content {
     max-width: 1024px;
+  }
+  .section {
+    margin-bottom: 120px;
   }
 }

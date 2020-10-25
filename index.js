@@ -11,7 +11,7 @@ if (width >= 1440) {
 } else if (width < 1024) {
   // for mobile device
   lottie.innerHTML =
-    '<lottie-player id="lottie" src="/mobileHeader.json" background="transparent"  speed="1"  style="width: 300px; height: 100px;" loop autoplay></lottie-player>';
+    '<lottie-player id="lottie" src="/mobileHeader.json" background="transparent"  speed="1"  style="width: 303px;height: 102px;" loop autoplay></lottie-player>';
 }
 
 const isMobile = $(window).width() <= 768;

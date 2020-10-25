@@ -1,3 +1,4 @@
+/* hero */
 #hero.dark {
   height: 100vh;
   background-color: #0d0d0d;
@@ -42,7 +43,7 @@
 
 /* my-works */
 #my-works {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 #my-works .header2 {
@@ -88,11 +89,11 @@
 }
 
 #chat-btn {
-  width: 180px;
-  height: 52px;
   background: #0d0d0d;
   border: 1px solid #0d0d0d;
   border-radius: 32px;
+
+  padding: 15px 48px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -138,7 +139,7 @@
 
   /* my-works */
   #my-works {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   #my-works .header2 {
@@ -181,6 +182,10 @@
     padding-top: 30px;
     padding-bottom: 40px;
   }
+
+  #chat-btn {
+    padding: 12px 72px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -218,7 +223,7 @@
 
   /* my works */
   #my-works {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   #my-works .header2 {
@@ -261,5 +266,9 @@
   #say-hi .header2 {
     padding-top: 48px;
     padding-bottom: 60px;
+  }
+
+  #chat-btn {
+    padding: 16px 104px;
   }
 }
