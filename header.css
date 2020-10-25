@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+svg {
+  width: 0;
+  height: 0;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.video-container {
+  outline: 1px solid #dadada;
+
+  padding-left: 5%;
+}
+
+.video-container video {
+  width: 100%;
+
+  display: block;
+  clip-path: url(#clip-00);
+}
+.video-container:nth-of-type(1) {
+  width: 310px;
+}
