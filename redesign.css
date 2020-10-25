@@ -1,23 +1,31 @@
 /* nav */
-
 #home-icon {
   display: none;
 }
 
 @media only screen and (min-width: 1024px) {
-  #back-icon {
-    display: none;
-  }
-
   #home-icon {
     display: block;
   }
 }
 
 /* hero */
+#hero {
+  margin-top: 68px;
+  padding-top: 35px;
+}
+
+#hero .header2 {
+  padding-top: 8px;
+  padding-bottom: 24px;
+
+  line-height: 34px;
+}
 
 #pill-container > * {
   margin: 0px 4px;
+
+  margin-bottom: 40px;
 }
 
 .rounded-btn {
@@ -28,16 +36,42 @@
   color: #7d7d7d;
 }
 
+/* ----------------------- */
+
 /* synopsis */
+
+#synopsis .overline,
+#synopsis .header3 {
+  padding-bottom: 14px;
+}
+
+#synopsis .subtitle1,
+#pink-section .subtitle1 {
+  padding-bottom: 10px;
+}
+
 #responsibility-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 20px;
   column-gap: 60px;
+
+  margin-top: 30px;
 }
 
 .responsibility-div {
   max-width: 200px;
+}
+
+#synopsis .body2,
+#pink-section .body2 {
+  line-height: 24px;
+}
+
+/* pink section */
+
+#pink-section .body3 {
+  line-height: 20px;
 }
 
 #pink-section {
@@ -46,11 +80,17 @@
   padding-bottom: 40px;
 }
 
+#pink-section .pinked-num {
+  margin-bottom: 12px;
+}
+
 #problem-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 30px;
   row-gap: 24px;
+
+  margin: 40px 0px;
 }
 
 #number-container {
@@ -162,7 +202,7 @@
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   /* hero */
   #pill-container > * {
     margin: 0px 11px;

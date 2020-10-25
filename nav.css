@@ -77,6 +77,10 @@ nav.dark {
     padding-right: 14%;
   }
 
+  #back-icon {
+    display: none;
+  }
+
   #home-icon {
     width: 42px;
     height: 14px;
