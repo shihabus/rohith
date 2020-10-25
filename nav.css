@@ -9,7 +9,7 @@ nav {
   width: 100%;
   top: 0;
   z-index: 1;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(10px);
   padding-left: 6%;
   padding-right: 6%;
 }
@@ -78,7 +78,7 @@ nav {
   }
 
   nav.light {
-    background-color: rgba(255, 255, 255, 0.55);
+    background-color: rgba(255, 255, 255, 0.85);
   }
   nav.dark {
     background-color: #0d0d0d;

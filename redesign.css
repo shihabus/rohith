@@ -1,3 +1,19 @@
+/* nav */
+
+#home-icon {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  #back-icon {
+    display: none;
+  }
+
+  #home-icon {
+    display: block;
+  }
+}
+
 #pill-container > * {
   margin: 0px 4px;
 }
