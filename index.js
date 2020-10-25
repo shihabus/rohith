@@ -39,15 +39,15 @@ const width = $(window).width();
 
 if (width >= 1440) {
   lottie.innerHTML =
-    '<lottie-player id="lottie" src="/webHeader.json" background="transparent"  speed="1"  style="width: 850px; height: 140px;" loop autoplay></lottie-player>';
+    '<lottie-player id="lottie" src="/webHeader.json" background="transparent"  speed="1"  style="width: 850px; height: 135px;" loop autoplay></lottie-player>';
 } else if (width >= 1024) {
   // for not mobile device
   lottie.innerHTML =
-    '<lottie-player id="lottie" src="/webHeader.json" background="transparent"  speed="1"  style="width: 550px; height: 96px;" loop autoplay></lottie-player>';
+    '<lottie-player id="lottie" src="/webHeader.json" background="transparent"  speed="1"  style="width: 550px; height: 130px;" loop autoplay></lottie-player>';
 } else if (width < 1024) {
   // for mobile device
   lottie.innerHTML =
-    '<lottie-player id="lottie" src="/mobileHeader.json" background="transparent"  speed="1"  style="width: 303px;height: 102px;" loop autoplay></lottie-player>';
+    '<lottie-player id="lottie" src="/mobileHeader.json" background="transparent"  speed="1"  style="width: 303px;height: 122px;" loop autoplay></lottie-player>';
 }
 
 const isMobile = $(window).width() <= 768;
