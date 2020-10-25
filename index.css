@@ -44,7 +44,7 @@
 
 /* my-works */
 #my-works {
-  /* margin-bottom: 40px; */
+  margin-bottom: 25px;
 }
 
 #my-works .header2 {
@@ -82,8 +82,12 @@
   padding-top: 12px;
   padding-bottom: 16px;
   max-width: 80%;
-}
 
+  line-height: 34px;
+}
+.round-edge-card .caption2 {
+  line-height: 16px;
+}
 /* say-hi */
 #say-hi .header2 {
   padding-top: 24px;
@@ -96,6 +100,8 @@
   border-radius: 32px;
 
   padding: 15px 48px;
+
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -187,6 +193,7 @@
 
   #chat-btn {
     padding: 12px 72px;
+    margin-bottom: 0px;
   }
 }
 
@@ -272,5 +279,6 @@
 
   #chat-btn {
     padding: 16px 104px;
+    margin-bottom: 40px;
   }
 }
