@@ -87,11 +87,21 @@
         <button class="rounded-btn caption2">UI / UX Design</button>
         <button class="rounded-btn caption2">Read time: 12 min</button>
       </div>
-      <img src="/static/img/c1-m.png" alt="" />
+      <picture>
+        <source
+          srcset="/static/img/betterhalfHero1440.png"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/static/img/betterhalfHero1024.png"
+          media="(min-width: 1024px)"
+        />
+        <img src="/static/img/c1-m.png" alt="" />
+      </picture>
     </section>
 
     <!-- synopsis -->
-    <section class="padded-content">
+    <section class="padded-txt-container">
       <p class="overline pink left-txt">SYNOPSIS</p>
       <p class="header3 left-txt">About the project</p>
       <p class="subtitle1 left-txt">Overview</p>
@@ -129,7 +139,7 @@
 
     <!-- pink -->
     <section id="pink-section">
-      <div class="padded-content">
+      <div class="padded-txt-container">
         <p class="subtitle1 left-txt">The Problem</p>
         <p class="body2 left-txt">
           We’ve found that our user engagement rate was low even if we had a
@@ -167,7 +177,7 @@
     </section>
 
     <!-- research -->
-    <section class="padded-content">
+    <section class="padded-txt-container">
       <p class="overline pink left-txt">RESEARCH</p>
       <p class="header3 left-txt">Identifying the problems</p>
       <p class="subtitle1 left-txt">Interviews</p>
@@ -196,7 +206,7 @@
     </section>
 
     <!-- insights -->
-    <section class="padded-content">
+    <section class="padded-txt-container">
       <p class="overline pink left-txt">RESEARCH INSIGHTS</p>
       <p class="header3 left-txt">Framing the problems</p>
       <p class="body2 left-txt">
@@ -306,7 +316,7 @@
     </section>
 
     <!-- synthesis -->
-    <section class="padded-content">
+    <section class="padded-txt-container">
       <p class="overline pink left-txt">PROBLEM SYNTHESIS</p>
       <p class="header3 left-txt">Affinity diagraming</p>
       <p class="body2 left-txt">
@@ -314,15 +324,35 @@
         data that we have collected. This method helped us in categorizing and
         prioritizing the data of the challenges the users faced.
       </p>
-      <div>
+      <div id="board-container">
         <div>
-          <img class="board-images" src="/static/img/list1.png" alt="list 1" />
+          <picture>
+            <source
+              srcset="/static/img/stickies1_1440.png"
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="/static/img/stickies1_1024.png"
+              media="(min-width: 1024px)"
+            />
+            <img src="/static/img/list1.png" alt="list 1" />
+          </picture>
           <p class="body3">
             Listing affinity notes according to the issues
           </p>
         </div>
         <div>
-          <img class="board-images" src="/static/img/list2.png" alt="list 2" />
+          <picture>
+            <source
+              srcset="/static/img/stickies1_1440.png"
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="/static/img/stickies1_1024.png"
+              media="(min-width: 1024px)"
+            />
+            <img src="/static/img/list2.png" alt="list 2" />
+          </picture>
           <p class="body3">
             Categorizing affinity notes into different themes
           </p>
@@ -331,7 +361,7 @@
     </section>
 
     <!-- persona -->
-    <section class="padded-content">
+    <section class="padded-txt-container">
       <p class="overline pink left-txt">USER PERSONA</p>
       <p class="header3 left-txt">Understanding the user</p>
       <p class="body2 left-txt">
@@ -339,11 +369,19 @@
         problems.
       </p>
       <!-- george -->
-      <div>
+      <div class="person-container">
         <picture>
+          <source
+            srcset="/static/img/george1440.png"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/static/img/george1024.png"
+            media="(min-width: 1024px)"
+          />
           <img src="/static/img/george.png" alt="" srcset="" />
         </picture>
-        <div>
+        <div class="bio-txt-container">
           <p class="subtitle2">George Jacob, 32</p>
           <p class="body2">Bangalore</p>
           <p class="body3 left-txt">
@@ -364,11 +402,19 @@
       </div>
 
       <!-- ankita -->
-      <div>
+      <div class="person-container">
         <picture>
+          <source
+            srcset="/static/img/ankita1440.png"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/static/img/ankita1024.png"
+            media="(min-width: 1024px)"
+          />
           <img src="/static/img/ankita.png" alt="" srcset="" />
         </picture>
-        <div>
+        <div class="bio-txt-container">
           <p class="subtitle2">Ankitha Jain, 26</p>
           <p class="body2">Delhi</p>
           <p class="body3 left-txt">
@@ -391,7 +437,7 @@
     </section>
 
     <!-- brainstorming -->
-    <section class="padded-content">
+    <section class="padded-txt-container">
       <p class="overline pink left-txt">BRAINSTROMING</p>
       <p class="header3 left-txt">Exploring ideas and opportunities</p>
       <p class="body2 left-txt">
@@ -400,16 +446,34 @@
         and prioritized some of the issues and features, and while mapping them
         we have found out that some of the requirements are interconnected.
       </p>
-      <picture>
-        <img src="/static/img/brainstorm1.png" alt="" srcset="" />
-      </picture>
-      <picture>
-        <img src="/static/img/brainstorm1.png" alt="" srcset="" />
-      </picture>
+      <div id="brainstorm-container">
+        <picture>
+          <source
+            srcset="/static/img/whiteBoard1440.png"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/static/img/whiteBoard1024.png"
+            media="(min-width: 1024px)"
+          />
+          <img src="/static/img/brainstorm1.png" alt="" srcset="" />
+        </picture>
+        <picture>
+          <source
+            srcset="/static/img/whiteBoard1440.png"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/static/img/whiteBoard1024.png"
+            media="(min-width: 1024px)"
+          />
+          <img src="/static/img/brainstorm1.png" alt="" srcset="" />
+        </picture>
+      </div>
     </section>
 
     <!-- decisions -->
-    <section class="padded-content">
+    <section class="padded-txt-container">
       <p class="overline pink left-txt">DESIGN DECISIONS</p>
       <p class="header3 left-txt">Rationale behind the solution</p>
       <p class="body2 left-txt">
@@ -418,54 +482,60 @@
         are going to be used.
       </p>
       <div id="table-div">
-        <!-- Constraints -->
-        <p class="subtitle1 left-txt">Constraints</p>
-        <p class="body2 left-txt">The seriousness of users</p>
-        <p class="body2 left-txt">Limited profile details</p>
-        <p class="body2 left-txt">Decision making</p>
-        <p class="body2 left-txt">User engagement</p>
-        <p class="body2 left-txt">Security</p>
-        <p class="body2 left-txt">User control</p>
-        <p class="body2 left-txt">Unnecessary features</p>
-        <p class="body2 left-txt">Storytelling</p>
+        <div>
+          <!-- Constraints -->
+          <p class="subtitle1 left-txt">Constraints</p>
+          <p class="body2 left-txt">The seriousness of users</p>
+          <p class="body2 left-txt">Limited profile details</p>
+          <p class="body2 left-txt">Decision making</p>
+          <p class="body2 left-txt">User engagement</p>
+          <p class="body2 left-txt">Security</p>
+          <p class="body2 left-txt">User control</p>
+          <p class="body2 left-txt">Unnecessary features</p>
+          <p class="body2 left-txt">Storytelling</p>
+        </div>
 
-        <!-- Solution -->
-        <p class="subtitle1 left-txt">Solution</p>
-        <p class="body2 left-txt">
-          Introducing Settle-down feature, Personal note feature, Activity
-          status in profile.
-        </p>
-        <p class="body2 left-txt">
-          Adding more information like community, hometown, marital status, etc
-        </p>
-        <p class="body2 left-txt">
-          Modifying the Information Architecture: One profile at a time,
-          Connections and request expiry
-        </p>
-        <p class="body2 left-txt">
-          Expanding the compatibility into a whole new personality section where
-          we can know about the user interests, beliefs, personalities, and
-          values come together.
-        </p>
-        <p class="body2 left-txt">
-          Social verification, photo verification, Govt. ID verification.
-        </p>
-        <p class="body2 left-txt">
-          Introducing the Reject button in every profile under the recommended
-          and received section.
-        </p>
-        <p class="body2 left-txt">
-          Removing Hide feature, Request sent, profile views, notification tab.
-        </p>
-        <p class="body2 left-txt">
-          Combining images and information to form a storytelling experience.
-        </p>
+        <div>
+          <!-- Solution -->
+          <p class="subtitle1 left-txt">Solution</p>
+          <p class="body2 left-txt">
+            Introducing Settle-down feature, Personal note feature, Activity
+            status in profile.
+          </p>
+          <p class="body2 left-txt">
+            Adding more information like community, hometown, marital status,
+            etc
+          </p>
+          <p class="body2 left-txt">
+            Modifying the Information Architecture: One profile at a time,
+            Connections and request expiry
+          </p>
+          <p class="body2 left-txt">
+            Expanding the compatibility into a whole new personality section
+            where we can know about the user interests, beliefs, personalities,
+            and values come together.
+          </p>
+          <p class="body2 left-txt">
+            Social verification, photo verification, Govt. ID verification.
+          </p>
+          <p class="body2 left-txt">
+            Introducing the Reject button in every profile under the recommended
+            and received section.
+          </p>
+          <p class="body2 left-txt">
+            Removing Hide feature, Request sent, profile views, notification
+            tab.
+          </p>
+          <p class="body2 left-txt">
+            Combining images and information to form a storytelling experience.
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- flow-dia -->
     <section class="centralized">
-      <div class="padded-content">
+      <div class="padded-txt-container">
         <p class="overline pink left-txt">FLOW DIAGRAM</p>
         <p class="header3 left-txt">Mapping & organizing information</p>
         <p class="body2 left-txt">
@@ -475,13 +545,21 @@
         </p>
       </div>
       <picture>
+        <source
+          srcset="/static/img/final1440.png"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/static/img/final1024.png"
+          media="(min-width: 1024px)"
+        />
         <img src="/static/img/vd.png" alt="" srcset="" />
       </picture>
     </section>
 
     <!-- wire framing -->
     <section class="centralized">
-      <div class="padded-content">
+      <div class="padded-txt-container">
         <p class="overline pink left-txt">WIREFRAMING</p>
         <p class="header3 left-txt">Low-fidelity explorations</p>
         <p class="body2 left-txt">
@@ -490,13 +568,21 @@
         </p>
       </div>
       <picture>
+        <source
+          srcset="/static/img/final1440.png"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/static/img/final1024.png"
+          media="(min-width: 1024px)"
+        />
         <img src="/static/img/vd.png" alt="" srcset="" />
       </picture>
     </section>
 
     <!-- designs -->
     <section class="centralized">
-      <div class="padded-content">
+      <div class="padded-txt-container">
         <p class="overline pink left-txt">VISUAL DESIGNS</p>
         <p class="header3 left-txt">The final solution</p>
         <p class="body2 left-txt">
@@ -505,18 +591,34 @@
         </p>
       </div>
       <picture>
+        <source
+          srcset="/static/img/final1440.png"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/static/img/final1024.png"
+          media="(min-width: 1024px)"
+        />
         <img src="/static/img/vd.png" alt="" srcset="" />
       </picture>
-      <p class="padded-content body2 left-txt">
+      <p class="padded-txt-container body2 left-txt">
         In the new home-screen, users can focus on a single profile and make a
         decision then and there. It also gives a storytelling experience for the
         user. With the introduction of the decline button, users can now pass a
         profile that they don't like.
       </p>
       <picture>
+        <source
+          srcset="/static/img/final1440.png"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/static/img/final1024.png"
+          media="(min-width: 1024px)"
+        />
         <img src="/static/img/vd.png" alt="" srcset="" />
       </picture>
-      <p class="padded-content body2 left-txt">
+      <p class="padded-txt-container body2 left-txt">
         Combining the top nav bar and the primary navigation leads the users to
         focus on their recommended requests, received requests, and their
         connections. And the introduction of "Personal note" doubles the chances
@@ -524,25 +626,49 @@
         the connection request.
       </p>
       <picture>
+        <source
+          srcset="/static/img/final1440.png"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/static/img/final1024.png"
+          media="(min-width: 1024px)"
+        />
         <img src="/static/img/vd.png" alt="" srcset="" />
       </picture>
-      <p class="padded-content body2 left-txt">
+      <p class="padded-txt-container body2 left-txt">
         A simplified received request section with a decline button in every
         profile to reject a request. Also, the user can now differentiate the
         seriousness of a profile with the help of the personal note feature.
       </p>
       <picture>
+        <source
+          srcset="/static/img/final1440.png"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/static/img/final1024.png"
+          media="(min-width: 1024px)"
+        />
         <img src="/static/img/vd.png" alt="" srcset="" />
       </picture>
-      <p class="padded-content body2 left-txt">
+      <p class="padded-txt-container body2 left-txt">
         The settle-down feature plays an important role in the matchmaking
         industry. It not only defines the seriousness of the user but also helps
         a user to make it a top priority in their preference.
       </p>
       <picture>
+        <source
+          srcset="/static/img/final1440.png"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/static/img/final1024.png"
+          media="(min-width: 1024px)"
+        />
         <img src="/static/img/vd.png" alt="" srcset="" />
       </picture>
-      <p class="padded-content body2 left-txt">
+      <p class="padded-txt-container body2 left-txt">
         This was one of the most requested features at the time of our research,
         and it makes total sense to a typical Indian user whose family members
         will also be part of choosing the life partner.
@@ -550,7 +676,7 @@
     </section>
 
     <!-- conclusion -->
-    <section class="padded-content">
+    <section class="padded-txt-container">
       <p class="overline pink left-txt">CONCLUSION</p>
       <p class="header3 left-txt">Reflection and next steps</p>
       <p class="body2 left-txt">
@@ -562,7 +688,7 @@
     </section>
 
     <!-- numbers -->
-    <section class="padded-content">
+    <section class="padded-txt-container">
       <p class="overline pink left-txt">NUMBERS</p>
       <p class="header3 left-txt">The success metrics</p>
       <p class="body2 left-txt">
@@ -594,7 +720,7 @@
     </section>
 
     <!-- learnings -->
-    <section class="padded-content">
+    <section class="padded-txt-container">
       <p class="overline pink left-txt">LEARNINGS</p>
       <p class="header3 left-txt">Takeaways from the project</p>
       <p class="body2 left-txt">

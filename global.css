@@ -57,6 +57,11 @@ a {
   margin: 0 auto;
 }
 
+.padded-txt-container {
+  max-width: 327px;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 1024px) {
   .section {
     margin-bottom: 100px;
@@ -64,6 +69,10 @@ a {
 
   .padded-content {
     max-width: 728px;
+  }
+
+  .padded-txt-container {
+    max-width: 624px;
   }
 }
 
@@ -73,5 +82,8 @@ a {
   }
   .section {
     margin-bottom: 120px;
+  }
+  .padded-txt-container {
+    max-width: 850px;
   }
 }

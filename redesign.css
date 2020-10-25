@@ -14,6 +14,8 @@
   }
 }
 
+/* hero */
+
 #pill-container > * {
   margin: 0px 4px;
 }
@@ -26,6 +28,7 @@
   color: #7d7d7d;
 }
 
+/* synopsis */
 #responsibility-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -50,12 +53,6 @@
   row-gap: 24px;
 }
 
-.board-images {
-  width: 327px;
-  height: auto;
-  object-fit: cover;
-}
-
 #number-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -63,5 +60,139 @@
   row-gap: 30px;
 }
 
-#table-div {
+@media only screen and (min-width: 1024px) {
+  /* hero */
+  #pill-container > * {
+    margin: 0px 8px;
+  }
+
+  .rounded-btn {
+    border: 1px solid #c4c4c4;
+    border-radius: 22px;
+    color: #7d7d7d;
+
+    padding: 8px 16px;
+    width: auto;
+    height: auto;
+
+    background-color: white;
+  }
+
+  /* synopsis */
+  #responsibility-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .responsibility-div {
+    max-width: 104px;
+  }
+
+  #pink-section {
+    padding-top: 84px;
+    padding-bottom: 80px;
+  }
+
+  #problem-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #problem-container div {
+    max-width: 112px;
+  }
+
+  /* research insights */
+  #iconed-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #iconed-container div {
+    max-width: 180px;
+  }
+
+  /* problem synthesis */
+  #board-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* persona */
+  .person-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bio-txt-container {
+    /* max-width: 380px; */
+    margin-left: 30px;
+  }
+
+  .bio-txt-container p {
+    text-align: left;
+  }
+
+  /* brainstorm */
+  #brainstorm-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* decisions */
+  #table-div {
+    display: flex;
+  }
+
+  #table-div div {
+    width: 50%;
+  }
+
+  /* conclusions */
+  #number-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* hero */
+  #pill-container > * {
+    margin: 0px 11px;
+  }
+
+  .rounded-btn {
+    padding: 12px 26px;
+  }
+
+  /* synopsis */
+  .responsibility-div {
+    max-width: 148px;
+  }
+
+  #pink-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  #problem-container div {
+    max-width: 160px;
+  }
+
+  /* research insights */
+  #iconed-container div {
+    max-width: 240px;
+  }
+
+  /* persona */
+  .bio-txt-container {
+    /* max-width: 380px; */
+    margin-left: 62px;
+  }
+
+  /* conclusions */
+  #number-container {
+    max-width: 600px;
+  }
 }
