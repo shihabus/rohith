@@ -134,6 +134,10 @@
   align-items: center;
 }
 
+.person-container:first-of-type{
+  /* color: red; */
+}
+
 #persona #ankita {
   padding-top: 40px;
 }
